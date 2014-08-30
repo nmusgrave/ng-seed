@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body ng-app="ngPersonalSiteApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <!-- App content -->
+  <body ng-app="seedApp">
+    
     <div class="container">
       <!-- header -->
       <div id="header" ng-include="'views/header.html'"></div>
@@ -23,22 +20,15 @@
       <!-- footer -->
       <div class="footer" id="footer" ng-include="'views/footer.html'"></div>
     </div>
-      
-
-    <!--[if lt IE 9]>
-    <script src="scripts/vendor/es5-shim.js"></script>
-    <script src="scripts/vendor/json3.js"></script>
-    <![endif]-->
-
-    <!-- Supporting scripts -->
+    
+     <!-- Supporting scripts -->
     <script src="scripts/vendor/angular.js"></script>
     <script src="scripts/vendor/angular-route.js"></script>
     <script src="scripts/vendor/jquery.js"></script>
     <script src="bootstrap-3.2.0-dist/js/bootstrap.js"></script>
-    
-    <!-- Controllers -->
     <script src="scripts/app.js"></script>
-    <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/MainCtrl.js"></script>
+    <script src="scripts/controllers/AboutCtrl.js"></script>
+
 </body>
 </html>
